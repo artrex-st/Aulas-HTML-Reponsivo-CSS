@@ -83,6 +83,7 @@ dentro de Col > classe Grid
 	margin-right: 0;
 }
 #topo ul li a{
+	margin-top:5%;
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -92,7 +93,7 @@ dentro de Col > classe Grid
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font: 18px arial;
+	font: 20px arial;
 }
 #menu{
 	display: none;
