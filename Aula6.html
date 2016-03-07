@@ -1,0 +1,76 @@
+<!--
+Plugins:
+https://packagecontrol.io/installation#st2
+view>console
+ctrl+shit+P
+install pacage
+emmet>auto complet com TAB
+Autofilename
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 6 - Responsive class</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<style type="text/css">
+		.filho{width: 25%;background: #999;left: 37.5%}
+	</style>
+
+</head>
+
+<body>
+
+<!--
+	<div align="middle">
+	#######################- estilo proprio -#########################
+	<style type="text/css">
+		.relative{position: relative;}
+		.absolute{position: absolute;}
+		.filho{width: 25%;background: #999;left: 37.5%}
+	</style>
+	?
+	define largura do elemento-
+	divite o restante por 2
+	alinhe o resultado a esquerda ou direita
+	!
+	#######################-        -#########################
+	<div class="filho absolute pagination-centered">Centralizado</div>
+	#######################-                -#########################
+-->
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 pagination-centered" style="background:#333;">
+				<a href="Aula5.html" target="_blanck"><button class="btn btn">Aula 5</button></a>
+				<a href="Aula7.html" target="_blanck"><button class="btn btn">Aula 7</button></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+		<div class="row-fluid visible-desktop">
+			<div class="span12 pagination-centered" style="height:40px;background:#f60;">
+				desktop
+			</div>
+		</div>
+		<div class="row-fluid visible-tablet">
+			<div class="span12 pagination-centered" style="height:40px;background:#6f0;">
+				tablet
+			</div>
+		</div>
+		<div class="row-fluid visible-phone">
+			<div class="span12 pagination-centered" style="height:40px;background:#60f;">
+				phone
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
