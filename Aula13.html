@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 13 - Formularios</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+</head>
+<!--
+	Form>fieldset>legend
+	
+	<label for="nome">Nome</label>
+	<input id="nome" name="nome" type="text">
+
+	FOR é lincado com ID = For<->id
+
+	input class="search-query input-small/medium/large/xlarge/xxx/block-level"
+
+
+-->
+<body>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 pagination-centered" style="background:#999;">
+				<a href="Aula12.html" target="_blanck"><button class="btn btn">Aula 12</button></a>
+				<a href="Aula14.html" target="_blanck"><button class="btn btn">Aula 14</button></a>
+			</div>
+		</div>
+	</div>
+	<h2>Formulários</h2>
+	<br>
+	<h3>Estrutura base</h3>
+	<form action="">
+		<fieldset>
+			<legend>
+				Dados pessoais
+			</legend>
+			<label for="nome">
+				Nome
+			</label>
+			<input id="nome" name="nome" type="text">
+			<span class="help-block">
+				6-100 caracteres
+			</span>	
+			<label class="checkbox">
+				<input type="checkbox"> aceita
+			</label>
+			<button class="btn btn-success" type="submit">
+				cadastrar
+			</button>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Dados de Acesso
+			</legend>
+		</fieldset>
+	</form>
+	<h3>Busca</h3>
+	<form action="" class="form-search">
+		<fieldset>
+			<input name="Busca" class="search-query" type="text">
+			<button class="btn btn" type="submit">Buscar</button>
+		</fieldset>
+	</form>
+	<br>
+	<h3>Inline</h3>
+	<form action="" class="form-inline">
+		<fieldset>
+			<input name="pesquisa" placeholder="Digite seu nome">
+			<input name="pesquisa" placeholder="Digite seu e-mail">
+			<button class="btn btn-primary" type="submit">Cadastrar</button>
+		</fieldset>
+	</form>
+	<br>
+	<h3>Horizontal</h3>
+	<form action="" class="form-horizontal">
+		<!-- caixa de Nome  -->
+		<div class="control-group">
+			<label for="nome" class="control-label">Nome:</label>
+			<div class="controls">
+				<input type="text" id="nome" placeholder="Digite seu nome:">
+			</div>
+		</div>
+		<!-- caixa de email  -->
+		<div class="control-group">
+			<label for="nome" class="control-label">E-mail:</label>
+			<div class="controls">
+				<input type="text" id="nome" placeholder="Digite seu e-mail:">
+			</div>
+		</div>
+		<!-- Botão cadastro  -->
+		<div class="control-group">
+			<div class="controls">
+				<button class="btn btn-primary" type="submit">Cadastrar</button>
+			</div>
+		</div>
+
+	</form>
+
+
+
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
