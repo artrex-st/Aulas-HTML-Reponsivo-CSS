@@ -9,7 +9,7 @@
 /* Fim do reset*/
 /* troca da cor de fundo */
 html,body{
-	background:#f1f1f1;
+	background:#999999;
 }
 /* fim da cor de fundo */
 /* inicio do conteiner (tamanho em %) */
@@ -83,6 +83,7 @@ dentro de Col > classe Grid
 	margin-right: 0;
 }
 #topo ul li a{
+	margin-top:5%;
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -92,7 +93,7 @@ dentro de Col > classe Grid
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font: 18px arial;
+	font: 20px arial;
 }
 #menu{
 	display: none;
@@ -107,7 +108,7 @@ dentro de Col > classe Grid
 	font: 18px arial;
 
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 800px){
 	#topo ul{
 		display: none;
 	}
