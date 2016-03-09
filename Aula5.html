@@ -1,0 +1,61 @@
+<!--
+Plugins:
+https://packagecontrol.io/installation#st2
+view>console
+ctrl+shit+P
+install pacage
+emmet>auto complet com TAB
+Autofilename
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>BootStrap - alinhamento</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<style type="text/css">
+		.relative{position: relative;}
+		.absolute{position: absolute;}
+		.filho{width: 25%;background: #999;left: 37.5%}
+	</style>
+
+</head>
+
+<body>
+
+<!--
+	<div align="middle">
+	#######################- estilo proprio -#########################
+	<style type="text/css">
+		.relative{position: relative;}
+		.absolute{position: absolute;}
+		.filho{width: 25%;background: #999;left: 37.5%}
+	</style>
+	?
+	define largura do elemento-
+	divite o restante por 2
+	alinhe o resultado a esquerda ou direita
+	!
+	#######################-        -#########################
+	<div class="filho absolute pagination-centered">Centralizado</div>
+	#######################-                -#########################
+-->
+	<div class="container">
+		<div class="row">
+			<div class="span12 pagination-centered" style="background:#999;">
+				<a href="Aula4.html" target="_blanck"><button class="btn btn">Aula 4</button></a>
+				<a href="Aula6.html" target="_blanck"><button class="btn btn">Aula 6</button></a>
+			</div>
+		</div>
+		<div class="filho absolute pagination-centered">Centralizado</div>
+	</div>
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

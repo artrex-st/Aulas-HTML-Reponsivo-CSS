@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 14 - Formularios pt-4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+</head>
+<!--
+
+
+
+-->
+<body>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 pagination-centered" style="background:#999;">
+				<a href="Aula13.html" target="_blanck"><button class="btn btn">Aula 13</button></a>
+				<a href="Aula15.html" target="_blanck"><button class="btn btn">Aula 15</button></a>
+			</div>
+		</div>
+	</div>
+
+	<h2>Formulários</h2>
+	<br>
+	<h3>Estrutura base</h3>
+	<form action="">
+		<fieldset>
+			<legend>
+				Dados pessoais
+			</legend>
+			<label for="nome">
+				Nome
+			</label>
+			<input id="nome" name="nome" type="text">
+			<span class="help-block">
+				6-100 caracteres
+			</span>	
+			<label class="checkbox">
+				<input type="checkbox"> aceita
+			</label>
+			<select name="" id="">
+				<option value="teste 1">Teste 1</option>
+				<option value="teste 3">Teste 2</option>
+				<option value="teste 2">Teste 3</option>
+			</select>
+			<div class="radio">
+  				<label><input type="radio" name="optradio">Option 1</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">Option 2</label>
+			</div>
+			<div class="radio disabled">
+				<label><input type="radio" name="optradio" disabled>Option 3</label>
+			</div>
+			<button class="btn btn-success" type="submit">
+				cadastrar
+			</button>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Dados de Acesso
+			</legend>
+		</fieldset>
+	</form>
+	
+
+
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
