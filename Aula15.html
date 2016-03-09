@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 15 - Formularios</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+</head>
+<!--
+add e inputs
+
+-->
+<body>
+	
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 pagination-centered" style="background:#999;">
+				<a href="Aula14.html" target="_blanck"><button class="btn btn">Aula 14</button></a>
+				<a href="Aula16.html" target="_blanck"><button class="btn btn">Aula 16</button></a>
+				<a href="indice.html" target="_blanck"><button class="btn btn">indice</button></a>
+			</div>
+		</div>
+	</div>
+<!--
+	input-PRE-prend / append (final)
+	add-on
+-->
+	<h2>Extensão para Formulários</h2>
+	<!-- antes -->
+	<div class="input-prepend">
+		<div class="add-on">R$</div>
+		<input type="text" class="span2" name="valor">		
+	</div>
+<br>
+	<!-- depois-->
+	<div class="input-append">
+		<input type="text" class="span2" name="valor">
+		<div class="add-on">°</div>	
+	</div>
+<br>	
+	<!-- antes E depois -->
+	<div class="input-prepend input-append">
+		<div class="add-on">R$</div>
+		<input type="text" class="span2" name="valor">
+		<div class="add-on">°</div>	
+	</div>
+<br>
+<!-- com botão-->
+	<div class="input-append">
+		<input type="text" class="span2" name="valor">
+		<button type="submit" class="btn">buscar</button>
+	</div>
+<br>
+<!-- com 2 botões -->
+	<div class="input-append">
+		<input type="text" class="span2" name="valor">
+		<button type="submit" class="btn">buscar</button>
+		<button type="submit" class="btn">buscar 2</button>
+	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
