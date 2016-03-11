@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Aula 16 - Formularios</title>
+	<title>Aula 17 - Inputs pt-5</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -10,21 +10,61 @@
 </head>
 <!--
 indice
+
+Form>fieldset>legend
+	
+	<label for="nome">Nome</label>
+	<input id="nome" name="nome" type="text">
+
+	FOR é lincado com ID = For<->id
+
+	input class="search-query input-small/medium/large/xlarge/xxx/block-level"
 -->
 <body>
 	
 	<div class="container-fluid">
 		<div class="row-fluid">
-			<div class="span12 pagination-centered" style="background:#999;">
-				<a href="indice.html" target="_blanck"><button class="btn btn">indice</button></a>
-			</div>
+			<div class="span12">
+				<div class="span12 pagination-centered" style="background:#999;">
+					<a href="indice.html" target="_blanck"><button class="btn btn">indice</button></a>
+				</div>
+			</div>	
 		</div>
 	</div>
+	<!-- é nescessario que os botoes fiquem dentro desse FORM-ACTIONS para que o nome,email e password required sejam validados-->
+	<div class="form-actions">
+		<h2>Inputs - configurações dos campos</h2>
+		<form action="">
+		<!-- sem row -->		
+			<div class="controls">
+				<input class="input-large" type="text" required="required" placeholder="digite seu nome">
+			</div>
+			<!--  row -->
+			<div class="controls-row">
+				<input class="span3" type="email" required="required" placeholder="digite seu e-mail" name="email">
+				<input class="span3" type="password" required="required" placeholder="digite sua senha">
 
+			</div>
+			<!-- simulando input -->
+			<dib class="controls">
+				<span class="input-large uneditable-input">
+					Não editavel!
+				</span>
+			</dib>
+			<!-- form action -->
+			<div class="form-actions">
+			  <button type="submit" class="btn btn-primary">Save changes</button>
+			    <button type="button" class="btn">Cancel</button>
+			</div>
+		</form>
+		<div class="controls-row">
+			<input class="span8" type="text" placeholder="digite seu e-mail">
+			<input class="span4 small" type="text" placeholder="digite sua senha">
+		</div>
+	</div>
 
 <br>	
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
