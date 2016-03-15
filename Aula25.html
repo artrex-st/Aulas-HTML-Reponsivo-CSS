@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 25 - Split Button dropdown</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+</head>
+<!--
+
+-->
+<body>
+	
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="span12 pagination-centered" style="background:#999;">
+					<a href="indice.html" target="_blanck"><button class="btn btn">indice</button></a>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- 
+	
+	-->
+	
+	
+	<!--
+	<Span class="caret"></Span> cria seta
+	dropdown-toggle 		cria o dropdown/submenu
+	<div class="btn-group dropup"> cria dropUP
+	-->
+	<div class="span12">
+		<h2>Split Button dropdown</h2>
+		<div class="btn-group">
+			<button class="btn">DropDown</button>
+			<a href="#" class="btn btnsuccess dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#"> Teste 1</a></li>
+				<li><a href="#"> Teste 2</a></li>
+				<li><a href="#"> Teste 3</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-submenu">
+					<a href="#">texto</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Submenu</a></li>
+						<li><a href="#">Submenu</a></li>
+						<li><a href="#">Submenu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<br>
+	<!-- DropUp -->
+	<div class="span12">
+		<h2>Split Button dropdUp</h2>
+		<div class="btn-group dropup">
+			<button class="btn">DropUp</button>
+			<a href="#" class="btn btnsuccess dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#"> Teste 1</a></li>
+				<li><a href="#"> Teste 2</a></li>
+				<li><a href="#"> Teste 3</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-submenu">
+					<a href="#">texto</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Submenu</a></li>
+						<li><a href="#">Submenu</a></li>
+						<li><a href="#">Submenu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<br>	
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
