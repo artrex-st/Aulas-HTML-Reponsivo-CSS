@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Aula 21 - Glyphicons icones</title>
+	<title>Aula 22 - </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -28,13 +28,49 @@
 	btn btn-block - Quebra a linha inteira
 	btn disabled - desabilita o botão
 	-->
-	<h2>Glyphicons/Icones</h2>
+	<h2>DropDown e DropUp</h2>
 	
 	<button class="btn btn-success" type="submit"> <i class="icon-ok icon-white"></i>Cadastrar</button>
 	<button class="btn btn-danger" type="reset"> <i class="icon-trash icon-white"></i>Limpar</button>
 
+	<!-- DropDOWN pull-left -> -->
+	<ul class="dropdown-menu" style="display:block; position:static;"> <!-- style="display:block; position:static;" será executado via comando de usuario no javascript -->
+		<li><a href="#">Action</a></li>
+		<li><a href="#">Another action</a></li>
+		<li class="disabled"><a href="javascript:.">Something else here</a></li>
+		<li class="divider"></li>
+		<li class="dropdown-submenu">
+				<a href="#">Separated</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">submenu</a></li>
+					<li><a href="#">submenu 1</a></li>
+					<li><a href="#">submenu 2</a></li>
+				</ul>
+	</ul>
+
+	<br>
+	<!-- DropUP pull-right <- -->
+	<div class="dropup pull-right">
+	  <!-- Link or button to toggle dropdown -->
+		<ul class="dropdown-menu" style="display:block; position:static;">
+			<li><a tabindex="-1" href="#">Action</a></li>
+			<li><a tabindex="-1" href="#">Another action</a></li>
+			<li><a tabindex="-1" href="#">Something else here</a></li>
+			<li class="divider"></li>
+			<li class="dropdown-submenu pull-left">
+				<a href="#">Separated</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">submenu</a></li>
+					<li><a href="#">submenu 1</a></li>
+					<li><a href="#">submenu 2</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
 <br>	
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
