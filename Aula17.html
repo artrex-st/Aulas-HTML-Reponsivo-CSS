@@ -32,22 +32,22 @@ Form>fieldset>legend
 		</div>
 	</div>
 	<!-- é nescessario que os botoes fiquem dentro desse FORM-ACTIONS para que o nome,email e password required sejam validados-->
-	<div class="form-actions">
+	<div class="form-actions visible-desktop visible-tablet">
 		<h2>Inputs - configurações dos campos</h2>
 		<form action="">
 		<!-- sem row -->		
 			<div class="controls">
-				<input class="input-large" type="text" required="required" placeholder="digite seu nome">
+				<input class="span4" type="text" required="required" placeholder="digite seu nome">
 			</div>
 			<!--  row -->
 			<div class="controls-row">
-				<input class="span3" type="email" required="required" placeholder="digite seu e-mail" name="email">
-				<input class="span3" type="password" required="required" placeholder="digite sua senha">
+				<input class="span4" type="email" required="required" placeholder="digite seu e-mail" name="email">
+				<input class="span4" type="password" required="required" placeholder="digite sua senha">
 
 			</div>
 			<!-- simulando input -->
 			<dib class="controls">
-				<span class="input-large uneditable-input">
+				<span class="span4 uneditable-input">
 					Não editavel!
 				</span>
 			</dib>
@@ -61,6 +61,37 @@ Form>fieldset>legend
 			<input class="span8" type="text" placeholder="digite seu e-mail">
 			<input class="span4 small" type="text" placeholder="digite sua senha">
 		</div>
+	</div>
+
+	<!-- 
+	Mobile/phone
+	atenção ao padding e width
+	 -->
+	<div class="form-actions visible-phone" style="background:#bcc;">
+		<h2>Inputs Configurações<br> dos Campos Mobile</h2>
+		<form action="" style="background:#acc; padding: 11px;">
+		<!-- sem row -->		
+			<div class="controls">
+				<input class="input-big" type="text" required="required" placeholder="digite seu nome">
+			</div>
+			<!--  row -->
+			<div class="controls-row">
+				<input class="input-big" type="email" required="required" placeholder="digite seu e-mail" name="email">
+				<input class="input-big"  type="password" required="required" placeholder="digite sua senha">
+
+			</div>
+			<!-- simulando input -->
+			<dib class="controls">
+				<span class="input-medium uneditable-input" style="width: 220px">
+					Não editavel!
+				</span>
+			</dib>
+			<!-- form action -->
+			<div class="form-actions"style="background:#acc; padding: 11px;">
+			  <button type="submit" class="btn btn-inverse">Save changes</button>
+			    <button type="button" class="btn btn-danger">Cancel</button>
+			</div>
+		</form>
 	</div>
 
 <br>	
