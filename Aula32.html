@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Aula 21 - Glyphicons icones</title>
+	<title>Aula 32 - NavBar - pt2</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -23,15 +23,34 @@
 		</div>
 	</div>
 	<!-- 
-	btn btn-inverse/info/link
-	btn btn-large/small/mini
-	btn btn-block - Quebra a linha inteira
-	btn disabled - desabilita o botão
-	-->
-	<h2>Glyphicons/Icones</h2>
 	
-	<button class="btn btn-success" type="submit"> <i class="icon-ok icon-white"></i>Cadastrar</button>
-	<button class="btn btn-danger" type="reset"> <i class="icon-trash icon-white"></i>Limpar</button>
+	-->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<form class="navbar-form pull-left">
+				<input type="text" class="span2 search-query">
+				<button type="submit" class="btn">Submit</button>
+			</form>
+		</div>
+	</div>
+	
+	<div class="navbar">
+		<div class="navbar-inner">
+			<ul class="nav">
+				<li class="dropdown">
+					<a href="#" data-toggle="dropdown">Empresa <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">lorem ipsum</a></li>
+						<li><a href="#">lorem ipsum</a></li>
+						<li><a href="#">lorem ipsum</a></li>
+						<li><a href="#">lorem ipsum</a></li>
+						<li><a href="#">lorem ipsum</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 
 <br>	
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
