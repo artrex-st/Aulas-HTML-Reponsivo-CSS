@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Aula 36 - Pagination pt1</title>
+	<title>Aula 38 - Labels e Badges</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -44,7 +44,7 @@
 	</div>
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
-			<div class="container">
+			<div class="container-fluid">
 				<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -53,44 +53,32 @@
 				<a class="brand" href="indice.html">Indice</a>
 				<div class="collapse nav-collapse">
 					<ul class="nav">
-						<li><a href="indice1.html">Indice antigo</a></li>
+						<li><a href="indice1.html">Indice antigo<span class="badge badge-important">40</span></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- fim do menu/indice fixo -->
-
-	<!--
-	pagination-centered
-	-->
-	<!-- pagination -->
-	<div class="pagination">
-		<ul>
-			<li class="disabled"><a href="#">&laquo;</a></li>
-			<li class="active"><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">&raquo;</a></li>
-		</ul>
+	<div class="container-fluid">
+		<span class="label">Label padrão</span>
+		<span class="label label-success">Label success</span>
+		<span class="label label-warning">Label warning</span>
+		<span class="label label-important">Label important</span>
+		<span class="label label-info">Label info</span>
+		<span class="label label-inverse">Label inverse</span>		
 	</div>
 
-	<div class="pagination">
-		<div>
-			<ul>
-				<li class="disabled"><a href="#">&laquo;</a></li>
-				<li class="active"><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">&raquo;</a></li>
-			</ul>
-		</div>
+	<div class="container-fluid">
+		<span class="badge">1</span>
+		<span class="badge badge-success">2</span>
+		<span class="badge badge-warning">3</span>
+		<span class="badge badge-important">4</span>
+		<span class="badge badge-info">5</span>
+		<span class="badge badge-inverse">6</span>		
 	</div>
-	<!-- 
-	
-	-->
-	
-	
+
+
 
 
 <br>	
