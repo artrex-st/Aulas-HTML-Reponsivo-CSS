@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	
-	<!-- edição -->
+	<!-- edição 
 	<style type="text/css">
 		.pagination div>ul>li>a{
 			color: #000;
@@ -16,12 +16,11 @@
 		{
 			height:40px;
 		}
-		.pagination ul>li>a{
-
-
+		.carousel-inner > .item > img {
+		    position-relative;
 		}
 	</style>
-	<!--
+
 	se estiver dentro de DIV>UL>LI>A é #999
 	Se estiver dentro apenas de UL>LI>A é #000 !important < priorisa esse estilo sobre tudo
 -->
@@ -34,7 +33,7 @@
 
 		pagination-centered/left/right
 -->
-<body classe="pagination-centered" style="height:3000px">
+<body style="height:3000px">
 
 	<!--
 	Indice	
@@ -46,36 +45,67 @@
 	<div class="container-fluid">
 		<div class="span12">
 			<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container-fluid">
-				<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<a class="brand" href="indice.html">Indice</a>
-				<div class="collapse nav-collapse">
-					<ul class="nav">
-						<li><a href="indice1.html">Indice antigo<span class="label label-important">Estou construindo!</span></a></li>
-					</ul>
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<a class="brand" href="indice.html">Indice</a>
+						<div class="collapse nav-collapse">
+							<ul class="nav">
+								<li><a href="indice1.html">Indice antigo<span class="label label-important">Estou construindo!</span></a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	<!-- fim do menu/indice fixo -->
 
-	<div class="hero-unit">
-		<h1>Titulo</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, explicabo. Dolor, facilis corrupti laboriosam est inventore praesentium ullam temporibus totam alias, quis quam fugiat vitae nostrum voluptatem fuga quaerat iste
-		</p>
-		<p><a class="btn btn-info" href="#">Link</a></p>
-	</div>
+		<div class="hero-unit">
+			<h1>Titulo</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, explicabo. Dolor, facilis corrupti laboriosam est inventore praesentium ullam temporibus totam alias, quis quam fugiat vitae nostrum voluptatem fuga quaerat iste
+			</p>
+			<p><a class="btn btn-info" href="#">Link</a></p>
 		</div>
 	</div>
 	<!-- tpcarousel -->
+	<div class="container-fluid" style="background:#999;" align="center">
+		<h2>teste</h2>
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="item">
+					<img src="http://placehold.it/1000x400"  alt="">				
+					<div class="carousel-caption">
+						<h4>1 Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
 
+				</div>
+				<div class="item">
+					<img src="http://placehold.it/1000x400" alt="">
+					<div class="carousel-caption" style="height:20%;width:100%">
+						<h4>2 Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+				<div class="item active">
+					<img src="http://placehold.it/1000x400" alt="">
+					<div class="carousel-caption">
+						<h4>3 Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		</div>
+	</div>
 
+	
 
 
 <br>	
