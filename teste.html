@@ -14,6 +14,11 @@
 <body style="height:3000px; background:#eee; margin-top: 51px;">
 
 	<!--
+	Class prefix	
+	.col-xs-(extra small <768px)
+	.col-sm-(small/tablet >= 768px)
+	.col-md-(desktps >=992px)
+	.col-lg-(Large desktops >=1200px)
 	Indice	
 	-->
 
@@ -46,7 +51,9 @@
 			</nav>
 		</div>
 	<!-- -->
-		
+		<div class="page-header">
+		<h1>Título da página <small>Descrição sobre o título</small></h1>
+	</div>
 		<!-- 95% carousel -->
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2" align="center">
@@ -63,7 +70,7 @@
 					<div class="carousel-inner"> <!-- style="padding:5px" -->
 						<div class="item active">
 							<img alt="Carousel Bootstrap First" src="http://placehold.it/1000x500"  /> <!-- largura = WID(screen) -->
-							<div class="carousel-caption">
+							<div class="carousel-caption2">
 								<h4>
 									First Thumbnail label
 								</h4>
@@ -74,7 +81,7 @@
 						</div>
 						<div class="item">
 							<img alt="Carousel Bootstrap Second" src="http://placehold.it/1000x500" />
-							<div class="carousel-caption">
+							<div class="carousel-caption2">
 								<h4>
 									Second Thumbnail label
 								</h4>
@@ -85,7 +92,7 @@
 						</div>
 						<div class="item">
 							<img alt="Carousel Bootstrap Third" src="http://placehold.it/1000x500" />
-							<div class="carousel-caption">
+							<div class="carousel-caption2">
 								<h4>
 									Third Thumbnail label
 								</h4>
@@ -103,23 +110,23 @@
 		<br>
 		<!-- Temas/noticias/novidades -->
 		<div class="row"> 
-			<div class="col-md-4"> <!-- Start 1/2 -->
-				<h1><img src="img/wings-90x81.jpg" height="81" width="90" alt=""> Wings</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda nam enim temporibus nesciunt, fugiat sequi eius facilis ea optio. Necessitatibus, beatae architecto, distinctio iste inventore amet quos nostrum repellendus!</p>
-			</div>
-			<div class="col-md-4"> <!-- Start 2/2-->
+			<div class="col-sm-6 col-md-4"> <!-- Start 1/2 -->
 				<h3><img src="img/wings-90x81.jpg" height="81" width="90" alt=""> Wings</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda nam enim temporibus nesciunt, fugiat sequi eius facilis ea optio. Necessitatibus, beatae architecto, distinctio iste inventore amet quos nostrum repellendus!</p>
 			</div>
-			<div class="col-md-4"> <!-- Start 2/2-->
-				<h5><img src="img/wings-90x81.jpg" height="81" width="90" alt=""> Wings</h5>
+			<div class="col-sm-6 col-md-4"> <!-- Start 2/2-->
+				<h3><img src="img/wings-90x81.jpg" height="81" width="90" alt=""> Wings</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda nam enim temporibus nesciunt, fugiat sequi eius facilis ea optio. Necessitatibus, beatae architecto, distinctio iste inventore amet quos nostrum repellendus!</p>
+			</div>
+			<div class="col-sm-6 col-md-4"> <!-- Start 2/2-->
+				<h3><img src="img/wings-90x81.jpg" height="81" width="90" alt=""> Wings</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda nam enim temporibus nesciunt, fugiat sequi eius facilis ea optio. Necessitatibus, beatae architecto, distinctio iste inventore amet quos nostrum repellendus!</p>
 			</div>
 		</div>
 		<!-- New -->
 		<br>
 		<!-- Titulo -->
-		<div class="jumbotron">
+		<div class="col-sm-12 col-md-9">
 			<div class="container-fluid">
 				<h1>Titulo</h1>
 					<p>
@@ -130,11 +137,12 @@
 		</div>
 		<br>
 		<div class="row" > <!-- Citação/comentario -->
-			<div class="col-md-12">
+			<div class="col-sm-6 col-md-4">
 				<blockquote>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-					</p> <small>Someone famous <cite>Source Title</cite></small>
+					</p>
+					<small>Someone famous <cite>Source Title</cite></small>
 				</blockquote>
 			</div>
 		</div>
